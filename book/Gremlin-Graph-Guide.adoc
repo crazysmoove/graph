@@ -709,12 +709,12 @@ Introducing the air-routes graph
 Along with these notes I have provided what is, in big data terms,a very small, but
 nonetheless real World, graph that is written in GraphML, a standard XML format for
 describing graphs that can be used to move graphs between applications. The graph,
-'air-routes.graphml' is a model I built of the World airline route network that is
-fairly accurate. Of course, in the real World, routes are added and deleted by
-airlines all the time so please don't use this graph to plan your next vacation or
-business trip!  However, as a learning tool I hope you will find it useful and easy
-to relate to. If you feel so inclined you can load the file into a text editor and
-examine how it is laid out. As you work with graphs you will want to become familiar
+'air-routes.graphml', is a model I built of the world airline route network that is
+fairly accurate. Of course, in the real world, routes are added and deleted by
+airlines all the time, so please don't use this graph to plan your next vacation or
+business trip!  However, I hope you will find it useful as a learning tool and easy
+to relate to. If you feel so inclined, you can load the file into a text editor and
+examine how it is laid out. As you work with graphs, you will want to become familiar
 with popular graph serialization formats. Two common ones are GraphML and GraphSON.
 The latter is a JSON format that is defined by Apache TinkerPop and heavily used in
 that environment. GraphML is very widely recognized by TinkerPop and many other tools
