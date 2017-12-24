@@ -706,8 +706,8 @@ represents an instance of a graph traversal source object.
 Introducing the air-routes graph
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Along with these notes I have provided what is, in big data terms,a very small, but
-nonetheless real World, graph that is written in GraphML, a standard XML format for
+Along with these notes I have provided what is, in big data terms, a very small, but
+nonetheless real-world, graph that is written in GraphML, a standard XML format for
 describing graphs that can be used to move graphs between applications. The graph,
 'air-routes.graphml' is a model I built of the World airline route network that is
 fairly accurate. Of course, in the real World, routes are added and deleted by
