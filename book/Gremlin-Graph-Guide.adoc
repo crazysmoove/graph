@@ -741,8 +741,8 @@ Each airport vertex has many properties associated with it giving various detail
 about that airport including its IATA and ICAO codes, its description, the city it is
 in and its geographic location.
 
-Specifically, each airport vertex has a unique ID, a label of 'airport' and contains
-the following properties. The word in parenthesis indicates the type of the property.
+Specifically, each airport vertex has a unique ID, a label of 'airport', and contains
+the following properties. The word in parentheses indicates the type of the property.
 
 ----
  type    (string) : Vertex type. Will be 'airport' for airport vertices   
@@ -800,13 +800,13 @@ The full details of all the features contained in the air-routes graph can be le
 by reading the comments at the start of the 'air-routes.graphml' file or reading the
 README.txt file.
 
-The graph currently contains a total of 3,612 vertices and 49,894 edges. Of these
+The graph currently contains a total of 3,612 vertices and 49,894 edges. Of these,
 3,367 vertices are airports, and 43,160 of the edges represent routes. While in big
 data terms this is really a tiny graph, it is plenty big enough for us to build up
 and experiment with some very interesting Gremlin queries.
 
-Lastly, here is are some statistics and facts about the air-routes graph. If you want
-to see a lot more statistics check the README.txt file that is included with the
+Lastly, here are some statistics and facts about the air-routes graph. If you want
+to see a lot more statistics, check the README.txt file that is included with the
 air-routes graph.
 
 ----
